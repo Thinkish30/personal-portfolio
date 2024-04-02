@@ -269,7 +269,16 @@ section .title::after{
      color: white;
      background:none;
  }
+
+ /* my project styling */
+
+ .card img{
+    width: 100%;
+ }
+
  
+ 
+
  /* services styling */
  .services{
      color: white;
