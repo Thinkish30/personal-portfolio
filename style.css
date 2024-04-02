@@ -133,7 +133,7 @@ body{
 .home {
     display: flex;
     background: url("images/leaves_bushes_green_174515_3840x2400.jpg") no-repeat center;
-    background-size: cover;
+    background-size: cover;  
     background-attachment: fixed;
     height: 100vh;
     color: white;
@@ -216,7 +216,8 @@ section .title::after{
 /* about section styling */
 .about{
     background: url("images/leaves_bushes_green_174515_3840x2400.jpg");
-    background-size: 2000px;
+    background-size: cover;
+    /* background-size: 2000px; */
 }
 .about .title::after{
     content: "Who I am";
@@ -277,14 +278,15 @@ section .title::after{
  }
 
  
- 
+
 
  /* services styling */
  .services{
      color: white;
      background:black;
      background: url("images/leaves_bushes_green_174515_3840x2400.jpg");
-     background-size: 2000px;
+     background-size: cover;
+     /* background-size: 2000px; */
  }
  .services .title::before{
     background: white;
@@ -329,7 +331,8 @@ section .title::after{
 
 .skills{
     background: url("images/leaves_bushes_green_174515_3840x2400.jpg");
-    background-size: 2000px;
+    /* background-size: 2000px; */
+    background-size: cover;
 }
 
 .skills .title::after{
@@ -462,7 +465,8 @@ section .title::after{
  /* contact section styling */
  .contact{
     background: url("images/leaves_bushes_green_174515_3840x2400.jpg");
-    background-size: 2000px;
+    /* background-size: 2000px; */
+    background-size: cover;
  }
  .contact .title::after{
      content: "Get in touch";
