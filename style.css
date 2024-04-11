@@ -15,6 +15,7 @@ body{
     background: url("images/leaves_bushes_green_174515_3840x2400.jpg") no-repeat center;
     background-size: cover;
     background-attachment: fixed;
+    user-select: none;
 }
 
 .favicon{
