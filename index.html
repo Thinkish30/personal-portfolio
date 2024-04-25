@@ -316,6 +316,15 @@
       event.clipboardData.setData('text/plain', selection);
     });
 
+    // Prevent text selection
+    document.addEventListener('selectstart', function (event) {
+      event.preventDefault();
+    });
+
+    // Prevent copying text
+    document.addEventListener('copy', function (event) {
+      event.preventDefault();
+    });
 
   </script>
 
