@@ -16,59 +16,65 @@
   <!-- Google material icons -->
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
 
-   <!-- CSS -->
+  <!-- CSS -->
   <link rel="stylesheet" href="style.css" />
 
-   <!-- FONT AWESOME -->
+  <!-- FONT AWESOME -->
   <script src="https://kit.fontawesome.com/{{YOUR KIT KEY}}.js" crossorigin="anonymous"></script>
 
-   <!-- TYPE JS -->
+  <!-- TYPE JS -->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.12/typed.min.js"
     integrity="sha512-3J8teBiHrSyaaRBajZyIEtpDsXdPq1gsznKWIVb5CnorQuFhjWGhWe54z8YNnHHr7MZuExb9m5kvf964HiT1Sw=="
     crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 
-   <!-- jQUERY -->
+  <!-- jQUERY -->
   <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 
-   <!-- SWEET ALERT -->
+  <!-- SWEET ALERT -->
   <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
 
-   <!-- EMAIL JS -->
+  <!-- EMAIL JS -->
   <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
   <script type="text/javascript">
     (function () {
-      emailjs.init("{{YOUR USER KEY}}");
+      emailjs.init("xMqOM5WGpyy-968LK");
     })();
   </script>
 
+  <style>
+    img {
+      pointer-events: none;
+    }
+  </style>
+
 </head>
 
-<body>
-    <nav class="navbar">
-      <div class="progress-container">
-        <div class="progress-bar" id="myBar"></div>
-      </div> 
-      <div class="max-width">
-        <div class="logo">
-          <a href="#">Personal<span> Portfolio</span></a>
-        </div>
-        <ul class="menu">
-          <li><a href="#home" class="menu-btn">Home</a></li>
-          <li><a href="#about" class="menu-btn">About</a></li>
-          <li><a href="#services" class="menu-btn">Services</a></li>
-          <li><a href="#skills" class="menu-btn">Skills</a></li>
-          <li><a href="#contact" class="menu-btn">Contact</a></li>
-        </ul>
-        <div class="menu-btn">
-          <i class="material-icons">menu</i>
-        </div>
+<body oncontextmenu="return false;">
+  <nav class="navbar">
+    <div class="progress-container">
+      <div class="progress-bar" id="myBar"></div>
+    </div>
+    <div class="max-width">
+      <div class="logo">
+        <a href="#">Personal<span> Portfolio</span></a>
       </div>
-    </nav>
+      <ul class="menu">
+        <li><a href="#home" class="menu-btn">Home</a></li>
+        <li><a href="#about" class="menu-btn">About</a></li>
+        <li><a href="#services" class="menu-btn">Services</a></li>
+        <li><a href="#skills" class="menu-btn">Skills</a></li>
+        <li><a href="#contact" class="menu-btn">Contact</a></li>
+      </ul>
+      <div class="menu-btn">
+        <i class="material-icons">menu</i>
+      </div>
+    </div>
+  </nav>
   <!-- Scroll to top button -->
-    <button id="btnScrollToTop">
-      <i class="material-icons">arrow_upward</i>
-    </button>
-    
+  <button id="btnScrollToTop">
+    <i class="material-icons">arrow_upward</i>
+  </button>
+
   <!-- home section start-->
   <section class="home" id="home">
     <div class="max-width">
@@ -83,9 +89,9 @@
   <!-- about section -->
   <section class="about" id="about">
     <div class="max-width">
-      <h2 class="title" data-aos="fade-down" >About Me</h2>
+      <h2 class="title" data-aos="fade-down">About Me</h2>
       <div class="about-content">
-        <div class="column left" data-aos="fade-right" >
+        <div class="column left" data-aos="fade-right">
           <img src="images/photo.jpg" alt="" />
         </div>
         <div class="column right" data-aos="fade-up">
@@ -93,7 +99,8 @@
             I'm Vinod Choudhary and Im a <span class="typing-2"></span>
           </div>
           <p class="paragraph">
-            I am a highly motivated, detail-oriented, and dedicated to delivering high-quality work. I am skilled at designing, installing, testing, and maintaining software systems.
+            I am a highly motivated, detail-oriented, and dedicated to delivering high-quality work. I am skilled at
+            designing, installing, testing, and maintaining software systems.
           </p>
           <a href="https://drive.google.com/file/d/1tCAi4XEdtmjZddqsqmJ2Bnu2ZzvM4bwA/view?usp=drive_link">Download
             Resume</a>
@@ -113,7 +120,8 @@
             <div class="text">Personal Portfolio</div>
             <img src="images/project1.png" alt="img3">
             <p>
-              Welcome to my personal portfolio website! Explore my journey, skills, and projects through a curated collection showcasing my expertise in Web Developer Role.
+              Welcome to my personal portfolio website! Explore my journey, skills, and projects through a curated
+              collection showcasing my expertise in Web Developer Role.
             </p>
           </div>
         </div>
@@ -124,7 +132,8 @@
             <div class="text">Myntra Clone</div>
             <img src="images/project2.png" alt="">
             <p>
-              Introducing my Myntra clone website! Experience the convenience and style of online shopping with a platfrom inspired by Myntra's renowed user interface.
+              Introducing my Myntra clone website! Experience the convenience and style of online shopping with a
+              platfrom inspired by Myntra's renowed user interface.
             </p>
           </div>
         </div>
@@ -135,7 +144,8 @@
             <div class="text">Food Ordering Website</div>
             <img src="images/project3.png" alt="img3">
             <p>
-              Introducing my innovative food ordering website! Savor the convenience of ordering delicious meals from a wide selection of restaurants, all in one place.
+              Introducing my innovative food ordering website! Savor the convenience of ordering delicious meals from a
+              wide selection of restaurants, all in one place.
             </p>
           </div>
         </div>
@@ -157,19 +167,20 @@
           </p>
           <a href="#about">Read More</a>
         </div> -->
-        <div class="column right skill-box">
-          <div class="icons">
-            <img src="images\skill-icons\icons8-css3.svg" alt="css" id="css-icon" data-aos="flip-left">
-            <img src="images\skill-icons\icons8-javascript.svg" alt="js" id="js-icon" data-aos="flip-left">
-            <img src="images\skill-icons\icons8-react-native.svg" alt="react" id="react-icon" data-aos="flip-left">
-            <img src="images\skill-icons\icons8-flutter.svg" alt="flutter" id="flutter-icon" data-aos="flip-left">
-          </div>
-          <div class="icons">
-            <img src="images\skill-icons\icons8-html-5.svg" alt="html", id="html-icon" data-aos="flip-left">
-            <img src="images\skill-icons\icons8-nodejs.svg" alt="nodedjs" id="nodejs-icon" data-aos="flip-left">
-            <img src="images\skill-icons\icons8-visual-studio-code-2019.svg" alt="vscode" id="vscode-icon" data-aos="flip-left">
-            <img src="images\skill-icons\icons8-c++.svg" alt="c++" id="cpp-icon" data-aos="flip-left">
-      </div>
+          <div class="column right skill-box">
+            <div class="icons">
+              <img src="images\skill-icons\icons8-css3.svg" alt="css" id="css-icon" data-aos="flip-left">
+              <img src="images\skill-icons\icons8-javascript.svg" alt="js" id="js-icon" data-aos="flip-left">
+              <img src="images\skill-icons\icons8-react-native.svg" alt="react" id="react-icon" data-aos="flip-left">
+              <img src="images\skill-icons\icons8-flutter.svg" alt="flutter" id="flutter-icon" data-aos="flip-left">
+            </div>
+            <div class="icons">
+              <img src="images\skill-icons\icons8-html-5.svg" alt="html" , id="html-icon" data-aos="flip-left">
+              <img src="images\skill-icons\icons8-nodejs.svg" alt="nodedjs" id="nodejs-icon" data-aos="flip-left">
+              <img src="images\skill-icons\icons8-visual-studio-code-2019.svg" alt="vscode" id="vscode-icon"
+                data-aos="flip-left">
+              <img src="images\skill-icons\icons8-c++.svg" alt="c++" id="cpp-icon" data-aos="flip-left">
+            </div>
   </section>
 
   <!-- Contact Section -->
@@ -209,7 +220,7 @@
           <div class="text">
             Message Me
           </div>
-          <form action="#Contact">
+          <form action="#Contact" method="post">
             <div class="fields">
               <div class="field name">
                 <input type="text" id="fromName" placeholder="Name" required autocomplete="off">
@@ -236,7 +247,8 @@
   <footer>
     <div class="text-center">
       <span>
-        Created By <a href="#">VINOD CHOUDHARY</a> | <span class="far fa-copyright"> </span> <script>document.write(new Date().getFullYear())</script> All rights reserved.
+        Created By <a href="#">VINOD CHOUDHARY</a> | <span class="far fa-copyright"> </span>
+        <script>document.write(new Date().getFullYear())</script> All rights reserved.
         <div>
           <a href="https://www.linkedin.com/in/vin0d-ch0udhary/"><i class="fab fa-linkedin"></i></a>
           <a href="https://github.com/Thinkish30"><i class="fab fa-github"></i></a>
@@ -248,17 +260,74 @@
   <script src="script.js"></script>
   <script>
     // When the user scrolls the page, execute myFunction 
-    window.onscroll = function() {myFunction()};
-    
+    window.onscroll = function () { myFunction() };
+
     function myFunction() {
       var winScroll = document.body.scrollTop || document.documentElement.scrollTop;
       var height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
       var scrolled = (winScroll / height) * 100;
       document.getElementById("myBar").style.width = scrolled + "%";
     }
-    </script>
-    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
-    <script>AOS.init({easing : 'ease-in',delay: 100,duration: 300,offset:100});window.addEventListener('load', AOS.refresh);</script>
+  </script>
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>AOS.init({ easing: 'ease-in', delay: 100, duration: 300, offset: 100 }); window.addEventListener('load', AOS.refresh);</script>
+
+  <script>
+
+    document.onkeydown = (e) => {
+      if (e.key == 123) {
+        e.preventDefault();
+      }
+      if (e.ctrlKey && e.key == 'u') {
+        e.preventDefault();
+      }
+      if (e.ctrlKey && e.shiftKey && e.key == 'I') {
+        e.preventDefault();
+      }
+      if (e.ctrlKey && e.shiftKey && e.key == 'C') {
+        e.preventDefault();
+      }
+      if (e.ctrlKey && e.shiftKey && e.key == 'J') {
+        e.preventDefault();
+      }
+      if (e.ctrlKey && e.shiftKey && e.key == 'U') {
+        e.preventDefault();
+      }
+    };
+
+    document.addEventListener('contextmenu', function (e) {
+      e.preventDefault();
+    });
+
+    document.addEventListener('touchstart', function (event) {
+      if (event.touches.length > 1) {
+        event.preventDefault();
+      }
+    });
+
+    document.addEventListener('copy', function (event) {
+      // Prevent the default copy behavior
+      event.preventDefault();
+
+      // Get the selection (text that the user highlighted)
+      const selection = window.getSelection().toString();
+
+      // Set the clipboard data to the selected text only
+      event.clipboardData.setData('text/plain', selection);
+    });
+
+    // Prevent text selection
+    document.addEventListener('selectstart', function (event) {
+      event.preventDefault();
+    });
+
+    // Prevent copying text
+    document.addEventListener('copy', function (event) {
+      event.preventDefault();
+    });
+
+  </script>
+
 </body>
 
 </html>
