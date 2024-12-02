@@ -75,6 +75,7 @@ body{
 .navbar.sticky .logo a span {
     color: white;
 }
+
 .navbar .menu ul{
     
     padding: 0; 
@@ -89,7 +90,6 @@ body{
 }
 
 .navbar .menu li a {
- 
     font-size: 18px;
     font-weight: 500;
     margin-left: 25px;
@@ -355,6 +355,7 @@ section .title::after{
     background: url("images/leaves_bushes_green_174515_3840x2400.jpg");
     /* background-size: 2000px; */
     background-size: cover;
+    justify-content: center;
 }
 
 .skills .title::after{
@@ -406,7 +407,8 @@ section .title::after{
  .skills .skills-content .right .icons img{
     transition: all 0.3s ease;
     color: white;
-    height: 100px;
+    height: 150px;
+    margin: 30px;
  }
  .skills .skills-content .right .icons img:hover{
     transform: scale(1.20);
